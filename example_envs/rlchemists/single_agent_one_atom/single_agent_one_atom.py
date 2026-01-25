@@ -1,5 +1,5 @@
 import numpy as np
-from gym import spaces
+from gymnasium import spaces
 
 # seeding code from https://github.com/openai/gym/blob/master/gym/utils/seeding.py
 from warp_drive.utils.constants import Constants

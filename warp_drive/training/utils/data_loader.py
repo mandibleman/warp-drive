@@ -7,7 +7,7 @@
 import logging
 
 import numpy as np
-from gym.spaces import Box, Dict, Discrete, MultiDiscrete
+from gymnasium.spaces import Box, Dict, Discrete, MultiDiscrete
 
 from warp_drive.utils.constants import Constants
 from warp_drive.utils.data_feed import DataFeed

@@ -4,7 +4,7 @@ from warp_drive.utils.data_feed import DataFeed
 from warp_drive.utils.gpu_environment_context import CUDAEnvironmentContext
 
 from example_envs.single_agent.base import SingleAgentEnv, map_to_single_agent, get_action_for_single_agent
-from gym.envs.classic_control.cartpole import CartPoleEnv
+from gymnasium.envs.classic_control.cartpole import CartPoleEnv
 
 _OBSERVATIONS = Constants.OBSERVATIONS
 _ACTIONS = Constants.ACTIONS

@@ -5,7 +5,7 @@
 # or https://opensource.org/licenses/BSD-3-Clause
 
 import numpy as np
-from gym import spaces
+from gymnasium import spaces
 
 BIG_NUMBER = 1e20
 

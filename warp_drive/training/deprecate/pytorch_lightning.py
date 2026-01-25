@@ -22,7 +22,7 @@ from typing import Callable, Iterable, Tuple
 import numpy as np
 import torch
 import yaml
-from gym.spaces import Discrete, MultiDiscrete
+from gymnasium.spaces import Discrete, MultiDiscrete
 from pytorch_lightning import LightningModule, seed_everything
 from pytorch_lightning.callbacks import Callback
 from torch import Tensor

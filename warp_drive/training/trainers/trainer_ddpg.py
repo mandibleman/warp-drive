@@ -17,7 +17,7 @@ import time
 import numpy as np
 import torch
 import yaml
-from gym.spaces import Discrete, MultiDiscrete
+from gymnasium.spaces import Discrete, MultiDiscrete
 from torch import nn
 from torch.nn.parallel import DistributedDataParallel as DDP
 from warp_drive.training.trainers.trainer_base import TrainerBase, all_equal, verbose_print

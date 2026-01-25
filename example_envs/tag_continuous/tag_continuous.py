@@ -8,7 +8,7 @@ import copy
 import heapq
 
 import numpy as np
-from gym import spaces
+from gymnasium import spaces
 
 from warp_drive.utils.constants import Constants
 from warp_drive.utils.data_feed import DataFeed

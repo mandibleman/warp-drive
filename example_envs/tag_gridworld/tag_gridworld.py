@@ -5,9 +5,8 @@
 # or https://opensource.org/licenses/BSD-3-Clause
 
 import numpy as np
-from gym import spaces
+from gymnasium import spaces
 
-# seeding code from https://github.com/openai/gym/blob/master/gym/utils/seeding.py
 from warp_drive.utils.constants import Constants
 from warp_drive.utils.data_feed import DataFeed
 from warp_drive.utils.gpu_environment_context import CUDAEnvironmentContext
