@@ -11,7 +11,7 @@ The Fully Connected Network class
 import numpy as np
 import torch
 import torch.nn.functional as func
-from gym.spaces import Box, Dict, Discrete, MultiDiscrete
+from gymnasium.spaces import Box, Dict, Discrete, MultiDiscrete
 from torch import nn
 
 from warp_drive.utils.constants import Constants

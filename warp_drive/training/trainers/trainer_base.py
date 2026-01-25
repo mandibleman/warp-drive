@@ -17,7 +17,7 @@ import time
 import numpy as np
 import torch
 import yaml
-from gym.spaces import Discrete, MultiDiscrete
+from gymnasium.spaces import Discrete, MultiDiscrete
 from torch import nn
 
 from warp_drive.training.utils.data_loader import create_and_push_data_placeholders

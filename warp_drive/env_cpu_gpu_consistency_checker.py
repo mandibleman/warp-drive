@@ -12,7 +12,7 @@ import logging
 
 import numpy as np
 import torch
-from gym.spaces import Discrete, MultiDiscrete, Box
+from gymnasium.spaces import Discrete, MultiDiscrete, Box
 
 from warp_drive.env_wrapper import EnvWrapper
 from warp_drive.training.utils.data_loader import (
