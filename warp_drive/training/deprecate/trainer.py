@@ -246,7 +246,7 @@ class Trainer:
         )
         self.cuda_sample_controller.init_random(seed)
         torch.manual_seed(seed)
-        random.seed(seed)
+        random.seed(int(seed))
         np.random.seed(seed)
         self.cuda_envs.init_reset_pool(seed + random.randint(1, 10000))
 
